@@ -1,2 +1,0 @@
-# Bootstrap-example-page
- 
