@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.intro{
+    background-color: #09143b;
+    background-image: url("../images/circle.png"),
+    url("../images/circle-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+    background-position-x: 700px, -800px;
+    background-position-y: 95%, 10%;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+.navbar-brand:hover{
+    color: #ffffff;
+}
+
+.nav-link{
+    transition: transform .3s ease;
+}
+
+.nav-link:hover{
+    transform: scale(1.2);
+    color: #ffffff;
+}
+
+.intro nav {
+    padding: 30px 0;
+}
+
+.intro__text{
+    margin-top: 100px;
+    width: 90%;
+    color: #ffffff;
+}
