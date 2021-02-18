@@ -51,3 +51,50 @@ nav a {
     width: 90%;
     color: #ffffff;
 }
+
+
+
+
+
+
+/* Gallery section*/
+
+.gallery__image{
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.gallery__link{
+    overflow: hidden;
+}
+
+.gallery__image__caption{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 40px 20px 10px;
+    width: 100%;
+    color: #ffffff;
+    clip-path: polygon(0 0, 100% 18%, 100% 100%, 0% 100%);
+    transition: bottom .5s ease;
+    position: absolute;
+    bottom: -100%;
+}
+
+.gallery__link:hover .gallery__image__caption {
+    bottom: 0;
+}
+
+.gallery__image__caption h1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.gallery__image__caption img {
+    width: 30px;
+}
+
+.gallery__image_helf {
+    height: 300px;
+}
+
